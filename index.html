@@ -117,61 +117,60 @@
 </head>
 <body>
 
-    <!-- Top Header Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <!-- Logo on the left -->
-            <a class="navbar-brand" href="#">
-                <img src="https://www.metatft.com/logo.svg" alt="MetaTFT Logo" class="logo me-2"> <!-- MetaTFT Logo -->
-                <span style="font-size: 4rem;">MetaTFT</span>
+<!-- Top Header Section -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!-- Logo on the left -->
+        <a class="navbar-brand" href="#" style="font-size: 2.5rem; padding-top: 5px; padding-bottom: 5px;">
+            <img src="https://www.metatft.com/logo.svg" alt="MetaTFT Logo" class="logo me-2" style="width: 50px; height: auto;"> <!-- MetaTFT Logo -->
+            <span style="font-size: 2.5rem;">MetaTFT</span>
+        </a>
+        
+        <!-- Search bar in the middle -->
+        <div class="mx-auto search-bar">
+            <form class="d-flex" style="padding-top: 5px; padding-bottom: 5px;">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="font-size: 0.8rem; height: 35px;">
+            </form>
+        </div>
+
+        <!-- Right section: download button, patreon logo, discord icon, person icon, and language dropdown -->
+        <div class="d-flex align-items-center" style="padding-top: 5px; padding-bottom: 5px;">
+            <!-- Download App Button -->
+            <a href="#" class="btn btn-danger me-3" style="font-size: 0.85rem; padding: 5px 10px;">Download App</a>
+            
+            <!-- Patreon Logo -->
+            <a href="https://www.patreon.com/MetaTFT" class="btn btn-outline-light me-2" target="_blank">
+                <img src="https://www.metatft.com/icons/Patreon_120.png" alt="Patreon" class="patreon-logo" style="width: 25px; height: auto;"> <!-- Patreon logo -->
+            </a>
+
+            <!-- Discord Icon -->
+            <a href="https://discord.com" class="btn btn-outline-light me-2" target="_blank" style="font-size: 1.2rem;">
+                <i class="fab fa-discord fa-lg"></i> <!-- Discord icon from FontAwesome -->
             </a>
             
-            <!-- Search bar in the middle -->
-            <div class="mx-auto search-bar">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </form>
-            </div>
-
-            <!-- Right section: download button, patreon logo, discord icon, person icon, and language dropdown -->
-            <div class="d-flex align-items-center">
-                <!-- Download App Button -->
-                <a href="#" class="btn btn-danger me-3">Download App</a>
-                
-                <!-- Patreon Logo -->
-                <a href="https://www.patreon.com/MetaTFT" class="btn btn-outline-light me-2" target="_blank">
-                    <img src="https://www.metatft.com/icons/Patreon_120.png" alt="Patreon" class="patreon-logo"> <!-- Patreon logo -->
-                </a>
-
-                <!-- Discord Icon -->
-                <a href="https://discord.com" class="btn btn-outline-light me-2" target="_blank">
-                    <i class="fab fa-discord fa-lg"></i> <!-- Discord icon from FontAwesome -->
-                </a>
-                
-                <!-- Person Icon (for profile) -->
-                <a href="#" class="btn btn-outline-light me-2">
-                    <i class="fas fa-user fa-lg"></i> <!-- Person icon from FontAwesome -->
-                </a>
-                
-                <!-- Language Dropdown -->
-                <div class="dropdown">
-                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="#">English</a></li>
-                        <li><a class="dropdown-item" href="#">Español</a></li>
-                        <li><a class="dropdown-item" href="#">Français</a></li>
-                        <li><a class="dropdown-item" href="#">Deutsch</a></li>
-                    </ul>
-                </div>
+            <!-- Person Icon (for profile) -->
+            <a href="#" class="btn btn-outline-light me-2" style="font-size: 1.2rem;">
+                <i class="fas fa-user fa-lg"></i> <!-- Person icon from FontAwesome -->
+            </a>
+            
+            <!-- Language Dropdown -->
+            <div class="dropdown">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 0.85rem;">
+                    EN
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Español</a></li>
+                    <li><a class="dropdown-item" href="#">Français</a></li>
+                    <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
 <!-- Dropdown Menus Section under the Header -->
-<div class="container mt-5">
+<div class="container mt-0">
     <div class="row">
         <!-- Comps Dropdown -->
         <div class="col">
@@ -256,16 +255,57 @@
 
 
 
-    <!-- Background Image Section with Buttons on the Left -->
-    <div class="bg-section" style ="position: relative; text-align: left;"> 
-        <div style="position: absolute; left: 10%; top: 20%; z-index: 2; color: white;">
-            <h1>The best place for TFT</h1>
-            <h1>stats and data</h1>
-            <p>Up to date for Patch 14.19</p>
-            <a href="#" class="btn btn-view-comps btn-lg" style="margin-right: 10px;">View Comps</a>
-            <a href="#" class="btn btn-download btn-lg">Download App</a>
+<!-- Background Image Section with Buttons on the Left -->
+<div class="bg-section" style="position: relative; text-align: left;"> 
+    <div style="position: absolute; left: 10%; top: 20%; z-index: 2; color: white;">
+        <h1>The best place for TFT</h1>
+        <h1>stats and data</h1>
+        <p>Up to date for Patch 14.19</p>
+        <a href="#" class="btn btn-view-comps btn-lg" style="margin-right: 10px;">View Comps</a>
+        <a href="#" class="btn btn-download btn-lg">Download App</a>
+    </div>
+</div>
+
+<!-- Three Panels Section -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Panel 1 -->
+        <div class="col-md-4">
+            <div class="panel" style="background-color: #343a40; padding: 20px; border-radius: 10px; text-align: center; color: white;">
+                <img src="https://cdn.metatft.com/file/metatft/home/happy_pengu.webp" alt="Happy Penguin" style="width: 40%; border-radius: 10px;">
+                <div style="margin-top: 20px;">
+                    <p><strong>Accurate and Unbiased</strong></p>
+                    <p>We use machine learning to discover the top TFT comps, analysing over 2 million games a day to give the most accurate statistics.</p>
+                </div>
+            </div>
         </div>
-        
+
+        <!-- Panel 2 -->
+        <div class="col-md-4">
+            <div class="panel" style="background-color: #343a40; padding: 20px; border-radius: 10px; text-align: center; color: white;">
+                <img src="https://cdn.metatft.com/file/metatft/home/cheer_pengu.webp" alt="Cheer Penguin" style="width: 40%; border-radius: 10px;">
+                <div style="margin-top: 20px;">
+                    <p><strong>Up to Date</strong></p>
+                    <p>Data is refreshed every few minutes and updated for any b-patches, so we'll always be up to date on the latest meta trends.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 3 -->
+        <div class="col-md-4">
+            <div class="panel" style="background-color: #343a40; padding: 20px; border-radius: 10px; text-align: center; color: white;">
+                <img src="https://cdn.metatft.com/file/metatft/home/dab_pengu.webp" alt="Dab Penguin" style="width: 40%; border-radius: 10px;">
+                <div style="margin-top: 20px;">
+                    <p><strong>Get the Advantage</strong></p>
+                    <p>Join thousands of players using MetaTFT to adapt to the meta, learn new strategies, and climb in ranked TFT.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
     </div>
 
     <!-- Include Bootstrap JS and dependencies -->
